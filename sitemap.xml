@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rolennn.github.io/posts/test_post/index.html</loc>
-    <lastmod>2023-12-31T11:41:22.940Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rolennn.github.io/index.html</loc>
-    <lastmod>2023-12-31T11:41:19.774Z</lastmod>
+    <loc>https://rolennn.github.io/posts/hello_world/index.html</loc>
+    <lastmod>2023-12-31T21:17:32.382Z</lastmod>
   </url>
   <url>
     <loc>https://rolennn.github.io/about.html</loc>
-    <lastmod>2023-12-31T11:41:18.497Z</lastmod>
+    <lastmod>2023-12-31T21:17:29.600Z</lastmod>
   </url>
   <url>
-    <loc>https://rolennn.github.io/posts/hello_world/index.html</loc>
-    <lastmod>2023-12-31T11:41:20.776Z</lastmod>
+    <loc>https://rolennn.github.io/index.html</loc>
+    <lastmod>2023-12-31T21:17:31.154Z</lastmod>
   </url>
 </urlset>
