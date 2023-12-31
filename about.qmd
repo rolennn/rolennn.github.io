@@ -1,0 +1,29 @@
+---
+title: "" 
+image: profile_img.jpg
+sidebar: false
+about:
+  template: trestles
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:rolen.muana@student.ateneo.edu
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rolen-muana-371055282/
+    - icon: github
+      text: Github
+      href: https://github.com/rolennn
+---
+
+Hello! I am **Rolen Muana**, an undergraduate student currently taking BS Applied Mathematics with specialization in Data Science at the Ateneo de Manila University. 
+
+This site is currently hosting--
+<ul>
+    <li> updates on my projects and activities;
+    <li> discussions on books and problems; and
+    <li> other interesting materials.
+</ul>
+
+If you would like to collaborate, or have comments or suggestions, feel free to send me [an email](mailto:rolen.muana@student.ateneo.edu). I will _try_ to respond promptly.
+

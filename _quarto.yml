@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "RMB"
+  navbar:
+    search: true
+        
+  sidebar:
+    style: "docked"
+    search: false
+    contents:
+      - text: "Home"
+        file: index.qmd
+      - text: "About"
+        file: about.qmd
+      - section: "Project Updates"
+      - section: "Interesting Materials"
+        contents:
+          - text: "Terence Tao's Blog"
+            href: https://terrytao.wordpress.com/
+          - text: "Tim Gower's Blog"
+            href: https://gowers.wordpress.com/
+          - text: "Tricki (deprecated)"
+            href: https://www.tricki.org/tricki/welcome
+          - text: "3Blue1Brown"
+            href: https://www.3blue1brown.com/
+          - text: "Practical Data Ethics"
+            href: https://ethics.fast.ai/
+          - text: "Matrix Calculus for Data Science"
+            href: https://arxiv.org/pdf/1802.01528.pdf
+      - section: "Selected Articles"
+
+  page-footer: "Made with Quarto and Github Pages."
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+

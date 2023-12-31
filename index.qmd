@@ -1,0 +1,14 @@
+---
+title: "Some Thoughts and Updates"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: table
+  fields: [date, title, description]
+  categories: true
+  sort-ui: false
+  filter-ui: true
+---
+
+_by Rolen Muana_
+

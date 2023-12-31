@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Some Thoughts and Updates",
+    "section": "",
+    "text": "by Rolen Muana\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nDec 31, 2023\n\n\nHello World\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "RMB",
+    "section": "",
+    "text": "Hello! I am Rolen Muana, an undergraduate student currently taking BS Applied Mathematics with specialization in Data Science at the Ateneo de Manila University.\nThis site is currently hosting–\n\n\nupdates on my projects and activities;\n\ndiscussions on books and problems; and\n\nother interesting materials.\n\nIf you would like to collaborate, or have comments or suggestions, feel free to send me an email. I will try to respond promptly."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/notes_cpz/test.html",
+    "href": "posts/notes_cpz/test.html",
+    "title": "Notes for CPZ",
+    "section": "",
+    "text": "This post serves as a compilation of interesting results from Mathematical Proofs: A Transition to Advanced Mathematics (4th Edition) by Chartrands, Polimeni, and Zhang."
+  },
+  {
+    "objectID": "posts/notes_cpz/test.html#polar-axis",
+    "href": "posts/notes_cpz/test.html#polar-axis",
+    "title": "Notes for CPZ",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n Oh snap! Change a few things up and try submitting again.\n\ninline: \\(\\sigma_{i=0}{s^2}\\). suppose this works"
+  },
+  {
+    "objectID": "posts/notes_cpz/test.html#context",
+    "href": "posts/notes_cpz/test.html#context",
+    "title": "Notes for CPZ",
+    "section": "",
+    "text": "This post serves as a compilation of interesting results from Mathematical Proofs: A Transition to Advanced Mathematics (4th Edition) by Chartrands, Polimeni, and Zhang."
+  },
+  {
+    "objectID": "posts/hello_world/index.html",
+    "href": "posts/hello_world/index.html",
+    "title": "Hello World",
+    "section": "",
+    "text": "This is a post."
+  }
+]
