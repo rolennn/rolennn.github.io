@@ -31,4 +31,7 @@ nb = nbf.v4.new_notebook()
 nb["cells"] = [nbf.v4.new_raw_cell(template), nbf.v4.new_markdown_cell(placeholder)]
 nbf.write(nb, "index.ipynb")
 
-print("[+] done")
+print("[+] folder created")
+print("[-] opening jupyter-lab")
+
+os.system("jupyter-lab")
