@@ -64,36 +64,3 @@ if __name__ == "__main__":
         create_post(name)
     else:
         print("[!] stupid")
-        os.system("code .")                        # assuming that we are currently at blog_dir (from main)
-        print("[+] vscode open for edits")
-    except: 
-        print("[!] something very bad: code")
-
-def create_post(folder_name):
-    # create and jump to a new directory (<blog_name>/posts/<folder_name>)
-    folder_subdir = ["rolennn.github.io", "posts", folder_name]
-    os.mkdir("\\".join(folder_subdir))
-    os.chdir("\\".join(blog_dir + folder_subdir))
-
-    # create an populate a new notebook with the template
-    nb = nbf.v4.new_notebook()
-    nb["cells"] = [nbf.v4.new_raw_cell(template), nbf.v4.new_markdown_cell(placeholder)]
-    nbf.write(nb, "index.ipynb")
-
-    print("[+] folder created")
-    os.chdir("\\".join(blog_dir))
-    edit_post()
-
-
-if __name__ == "__main__":
-    # move to the main blog directory
-    os.chdir("\\".join(blog_dir))
-    
-    task = input("[1]edit [2]create ? ")
-    if (task in ['1', '']):
-        edit_post()
-    elif (task == '2'):
-        name = input("folder-name ? ")
-        create_post(name)
-    else:
-        print("[!] stupid")
