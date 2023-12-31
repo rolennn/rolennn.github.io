@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "posts/hello_world/index.html",
-    "href": "posts/hello_world/index.html",
-    "title": "Hello World",
+    "objectID": "posts/test_post/index.html",
+    "href": "posts/test_post/index.html",
+    "title": "Test Post",
     "section": "",
-    "text": "This is a post."
+    "text": "This is a post. I created this to test my post-creation system."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Some Thoughts and Updates",
+    "section": "",
+    "text": "by Rolen Muana\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nDec 31, 2023\n\n\nHello World\n\n\n\n\n\n\n\nDec 31, 2023\n\n\nTest Post\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -14,10 +21,10 @@
     "text": "Hello! I am Rolen Muana, an undergraduate student currently taking BS Applied Mathematics with specialization in Data Science at the Ateneo de Manila University.\nThis site is currently hosting–\n\n\nupdates on my projects and activities;\n\ndiscussions on books and problems; and\n\nother interesting materials.\n\nIf you would like to collaborate, or have comments or suggestions, feel free to send me an email. I will try to respond promptly."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Some Thoughts and Updates",
+    "objectID": "posts/hello_world/index.html",
+    "href": "posts/hello_world/index.html",
+    "title": "Hello World",
     "section": "",
-    "text": "by Rolen Muana\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nDec 31, 2023\n\n\nHello World\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a post."
   }
 ]
