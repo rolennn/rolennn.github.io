@@ -18,11 +18,13 @@ current_time = str(dt.date.today())
 template = f"""---
 title: ""
 date: "{current_time}"
+draft: true
 categories: []
 format: 
   html:
     code-fold: true
     toc: true
+    toc-title: "Contents"
 comments:
   hypothesis: 
     theme: clean
