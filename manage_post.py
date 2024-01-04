@@ -23,6 +23,9 @@ format:
   html:
     code-fold: true
     toc: true
+comments:
+  hypothesis: 
+    theme: clean
 jupyter: python3
 ---"""
 placeholder = "This is a post."
