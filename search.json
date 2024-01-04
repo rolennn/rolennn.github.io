@@ -4,14 +4,7 @@
     "href": "posts/hello_world/index.html",
     "title": "Hello World",
     "section": "",
-    "text": "This is my first post in this blog. I hope to use this to document some interesting projects and research activities. I hope that I’ll have some interesting things to share to the world. First among these are the resources in the sidebar. (Some of them even serve as inspiration for the format and content of this blog.)\nI’m not sure if I will have the committment to grow this site, but I hope to at least try. It seems that I’ll have to take some big steps along the way. Anyway, the first step is always a big step."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "RMB",
-    "section": "",
-    "text": "Hello! I am Rolen Muana, an undergraduate student currently taking BS Applied Mathematics with specialization in Data Science at the Ateneo de Manila University.\nThis site is currently hosting–\n\n\nupdates on my projects and activities;\n\ndiscussions on books and problems; and\n\nother interesting materials.\n\nIf you would like to collaborate, or have comments or suggestions, feel free to send me an email. I will try to respond promptly."
+    "text": "This is my first post in this blog. I hope to use this to document some interesting projects and research activities. I hope that I’ll have some interesting things to share to the world. First among these are the resources in the sidebar. (Some of them even serve as inspiration for the format and content of this blog.)\nI’m not sure if I will have the committment to grow this site, but I hope to at least try. It seems that I’ll have to take some big steps along the way. Anyway, the first step is always a big step.\n[Update 2024-01-04] Commenting/annotating is now available through Hypothes.is. Just highlight the passage and sign-up to record the comment."
   },
   {
     "objectID": "index.html",
@@ -19,5 +12,12 @@
     "title": "Some Thoughts and Updates",
     "section": "",
     "text": "by Rolen Muana\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nDec 31, 2023\n\n\nHello World\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "RMB",
+    "section": "",
+    "text": "Hello! I am Rolen Muana, an undergraduate student currently taking BS Applied Mathematics with specialization in Data Science at the Ateneo de Manila University.\nThis site is currently hosting–\n\n\nupdates on my projects and activities;\n\ndiscussions on books and problems; and\n\nother interesting materials.\n\nIf you would like to collaborate, or have comments or suggestions, feel free to send me an email. I will try to respond promptly."
   }
 ]
