@@ -2,7 +2,7 @@
 # helper script to create a directory with a notebook (create_post)
 # or edit a current notebook (edit_post) for the blog.
 
-# [1/1/2023] i am opening vscode to edit the notebook instead of 
+# [2024-01-01] i am opening vscode to edit the notebook instead of 
 # jupyter-lab because: (1) i don't want to open another kernel 
 # just to edit a notebook; and (2) i don't think it's possible to 
 # edit notebooks in the terminal. unless i can think of another way
@@ -47,7 +47,7 @@ def create_post(folder_name):
     os.mkdir("\\".join(folder_subdir))
     os.chdir("\\".join(blog_dir + folder_subdir))
 
-    # create an populate a new notebook with the template
+    # create and populate a new notebook with the template
     nb = nbf.v4.new_notebook()
     nb["cells"] = [nbf.v4.new_raw_cell(template), nbf.v4.new_markdown_cell(placeholder)]
     nbf.write(nb, "index.ipynb")
