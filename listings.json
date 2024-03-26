@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/totientfunc_investigation/index.html",
       "/posts/hello_world/index.html"
     ]
   }

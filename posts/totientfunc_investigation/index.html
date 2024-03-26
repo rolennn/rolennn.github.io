@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-01-04">
+<meta name="dcterms.date" content="2024-03-27">
 
-<title>RMB - Problem-Solving and Tools</title>
+<title>RMB - An Investigation Leading to the Euler’s Totient Function</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,6 +68,8 @@ ul.task-list li input[type="checkbox"] {
 </script>
 <script async="" src="https://hypothes.is/embed.js"></script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -93,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Problem-Solving and Tools</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">An Investigation Leading to the Euler’s Totient Function</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -185,11 +187,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Problem-Solving and Tools</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">essay</div>
-  </div>
-  </div>
+<h1 class="title">An Investigation Leading to the Euler’s Totient Function</h1>
+</div>
 
 
 
@@ -199,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 4, 2024</p>
+      <p class="date">March 27, 2024</p>
     </div>
   </div>
   
@@ -209,8 +208,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This essay aims to summarize my perspective on mathematics and thoughts on how its education can be implemented to serve the needs of the learner and their community. I am neither a mathematician nor an educator, so it is inevitable that someone more experienced in these fields will find flaws in my ideas. I am, however, a student, and I hope to add my experience of learning math (however limited it may be) in the present context to the general discussion on education.</p>
-<p>In reflecting how I see mathematics in my life, I felt compelled to compare it to a toolbox. A person encounters a problem in the wild, and they would reach into their toolbox to probe, test, and, ultimately, solve this problem. Sometimes, the first tool they pick would be enough for this task. Other times, the problem persists until the person finds a very specific tool in their box–a clever insight or a different perspective on the problem. Oftentimes, the problem will not crack until the person finds a tool that is not originally in their box. The person then devotes themself to the process of inventing, collaborating, and researching to identify a tool that could best solve the problem. If a tool is invented, it is then added to the toolbox for the person to use in the future.</p>
+<p>The purpose of this post is to show how to arrive at the Euler’s totient function (commonly denoted as <span class="math inline">\(\varphi(x)\)</span>), which provides a convenient way of counting the number of integers less than <span class="math inline">\(x\)</span> that are co-primes with <span class="math inline">\(x\)</span>. A discussion on the computational aspect of this function, and possible extensions for investigation will also be provided at the end.</p>
 
 
 
